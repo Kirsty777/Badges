@@ -1,0 +1,7 @@
+<h1>New requirement for <%= @badge.name %> badge</h1>
+<p>
+  <img src="<%= @badge.image_url %>" />
+</p>
+<%= render 'form' %>
+
+<%= link_to 'Back', badge_requirements_path %>
